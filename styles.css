@@ -1,0 +1,62 @@
+
+
+body{
+	background-image: url(greencream.svg);
+}
+h1{
+	color: blue;
+	}
+p{color: black;
+}
+.boldclass{
+	font-weight: bold;
+}
+#bigId{
+	font-size: 40px;
+}
+.image{
+	display: block;
+}
+
+a{
+	border:1px solid black;
+	margin: auto;
+	padding: 1px;
+}
+a{
+	background-color: blanchedalmond;
+}
+a{color: blue;
+}
+
+.center {
+  margin: 400px;
+  width: 200px;
+  height: 300px;
+  border: 10px solid blue;
+  padding: 10px;
+}
+img {
+  float: right;
+}
+h2{
+	text-underline-position: center
+}
+*{
+	box-sizing: border-box;
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: blanchedalmond;
+  padding: 10px;
+}
+.grid-item {
+  background-color: rgba(200, 200);
+  border: 5px solid rgba(0, 0, 1);
+  padding: 10px;
+  font-size: 20px;
+  text-align: center;
+ }
+ 
