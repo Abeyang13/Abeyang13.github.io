@@ -59,4 +59,34 @@ h2{
   font-size: 20px;
   text-align: center;
  }
- 
+ img { 
+  width: 100%; 
+}
+table {
+	table-layout: fixed;
+ }
+table {
+	table-layout: auto;
+}
+img{
+	flood-color: blanchedalmond;
+}
+h5{
+	border-width: 10px;
+}
+h4{
+	color: green;
+}
+b{
+	animation-direction: reverse;
+}
+q{
+	font-size: 10px;
+}
+s{
+	flex-direction: column-reverse;
+}
+table{
+	size: 100px;
+}
+
