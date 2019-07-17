@@ -19,9 +19,9 @@ p{color: black;
 }
 
 a{
-	border:1px solid black;
+	border:.5px solid blue;
 	margin: auto;
-	padding: 1px;
+	padding: .5px;
 }
 a{
 	background-color: blanchedalmond;
@@ -50,12 +50,12 @@ h2{
   display: grid;
   grid-template-columns: auto auto;
   background-color: blanchedalmond;
-  padding: 10px;
+  padding: 5px;
 }
 .grid-item {
   background-color: rgba(200, 200);
-  border: 5px solid rgba(0, 0, 1);
-  padding: 10px;
+  border: 3px solid rgba(0, 0, 3);
+  padding: 5px;
   font-size: 20px;
   text-align: center;
  }
