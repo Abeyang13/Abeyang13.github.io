@@ -3,7 +3,7 @@ body
   margin: 0;
   padding: 0;
   font-family: sans-serif;
-  background: whitesmoke;  
+  background-color: whitesmoke;
 }
 
 .box
@@ -59,4 +59,30 @@ body
     font-weight: bold;
     color: whitesmoke;
     word-spacing: 0mm;
+}
+
+.social-menu ul
+{
+    position: absolute;
+    top:80%;
+    left:15.6%;
+    padding: 0;
+    margin: 0;
+    transform: translate(-50%, -50%);
+    display: flex;
+}
+
+.social-menu li
+{
+    list-style: none;
+    margin: 0 10px;
+}
+
+.social-menu ul li .fa
+{
+    padding: 1px;
+    font-size: 30px;
+    line-height: 60px;
+    transition: .6s;
+    color: #000;
 }
