@@ -148,16 +148,83 @@ body{
     margin:0;
 }
 
+.container{
+    max-width: 1140px;
+    margin: auto;
+}
+
 header{
-    background-color: red;
     position: absolute;
     left:0px;
     right:0px;
+    border-bottom: 1px solid rgb(100, 100, 100);
+}
+
+header .navbar{
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+header .navbar ul{
+   list-style: none;
+   padding:0;
+   margin:0;
+}
+
+header .navbar ul li{
+    display: inline-block;
+    margin-left: 35px;
+}
+
+header .navbar ul li a{
+    font-size: 20px;
+    text-decoration: none;
+    line-height: 45px;
+    color: whitesmoke;
+    display: block;
+    font-weight: 600;
+    position: relative;
+}
+
+header .navbar ul li a:hover{
+    color:lightseagreen;
 }
 
 .home{
     min-height: 100vh;
-    background-image: url("background.jpg");
+    background-image: url("developer.jpg");
     background-size: cover;
     background-position: center;
 }
+
+.home .home-content{
+    flex: 0 0 100%;
+    max-width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin-top: 20%;
+}
+
+.home .home-content .block{
+    flex: 0 0 75%;
+    max-width: 75%;
+    color: whitesmoke;
+    padding-left: 35px;
+    border-left: 3px solid whitesmoke;
+
+}
+
+.home .home-content .block h6{
+    font-size: 20px;
+}
+
+.home .home-content .block h1{
+    font-size: 50px;
+    font-weight: bold;
+}
+
+.home .home-content .block h3{
+    font-size: 24px;
+}
+
