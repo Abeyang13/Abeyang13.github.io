@@ -212,3 +212,72 @@ header .navbar ul li a:hover{
 .about-me .about-content .text .social-links a .fa:hover{
     color: rgb(198, 207, 207);
 }
+
+.projects{
+    min-height: 80vh;
+    background-image: url("background.jpg");
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 30px;
+}
+
+.projects .section-title{
+    color: lightseagreen;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.projects .section-title h1{
+    font-size: 35px;
+    text-transform: uppercase;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    border-bottom: 1px solid lightseagreen;
+}
+
+.projects .row .projects-cards{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.projects .row .projects-cards .list{
+    margin-top: 30px;
+    margin-left: 30px;
+    margin-right: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    border: 1px solid rgb(198, 207, 207);
+}
+
+.projects .row .projects-cards .list a{
+    color: whitesmoke;
+    font-size: 30px;
+    font-weight: 600;
+    text-align: center;
+    box-sizing: border-box;
+    width: 500px;
+    height: 200px;
+    padding-top: 30px;
+}
+
+#fishing{
+    background-image: url("fishing.jpg");
+    background-size: cover;
+}
+
+#properTech{
+    background-image: url("propertech.jpg");
+    background-size: cover;
+}
+
+#movie{
+    background-image: url("movies.jpg");
+    background-size: cover;
+}
+
+#dolly{
+    background-image: url("dolly.jpg");
+    background-size: cover;
+}
