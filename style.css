@@ -20,12 +20,12 @@ header{
     position: absolute;
     left:0px;
     right:0px;
-    border-bottom: 1px solid rgb(100, 100, 100);
 }
 
 header .navbar{
     justify-content: center;
     flex-wrap: wrap;
+    position: fixed;
 }
 
 header .navbar ul{
@@ -75,7 +75,7 @@ header .navbar ul li a:hover{
     max-width: 75%;
     color: whitesmoke;
     padding-left: 35px;
-    border-left: 3px solid whitesmoke;
+    border-left: 3px solid lightseagreen;
 
 }
 
@@ -95,6 +95,8 @@ header .navbar ul li a:hover{
 /* About Me */
 .about-me{
     padding:100px 15px;
+    background-color: black;
+    background-image: linear-gradient(black,darkgrey);
 }
 
 .about-me .section-title{
@@ -109,6 +111,7 @@ header .navbar ul li a:hover{
     margin: 0;
     display: inline-block;
     position: relative;
+    color: whitesmoke;
 }
 
 .about-me .section-title h1::before{
@@ -124,6 +127,7 @@ header .navbar ul li a:hover{
 .about-me .section-title p{
     display: block;
     font-size: 15px;
+    color: whitesmoke;
 }
 
 .about-me .about-content .img{
@@ -148,11 +152,13 @@ header .navbar ul li a:hover{
 .about-me .about-content .text h4{
     font-size: 30px;
     font-weight: 600;
+    color: whitesmoke;
 }
 
 .about-me .about-content .text h6{
     font-size: 20px;
     font-weight: 600;
+    color:whitesmoke;
 }
 .about-me .about-content .text h6 .color-font{
     color: lightseagreen;
@@ -160,7 +166,7 @@ header .navbar ul li a:hover{
 
 .about-me .about-content .text p{
     padding-top: 10px;
-    color: lightslategrey;
+    color: whitesmoke;
 }
 
 .about-me .about-content .text .info{
@@ -175,13 +181,13 @@ header .navbar ul li a:hover{
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
-    border-bottom: 1px solid grey;
+    border-bottom: 1px solid whitesmoke;
     padding-bottom: 5px;
 }
 
 .about-me .about-content .text .info .list label{
     padding-right:10px;
-    color: black;
+    color: lightseagreen;
     font-weight: 600;
     font-size: 15px;
 }
@@ -213,6 +219,7 @@ header .navbar ul li a:hover{
     color: rgb(198, 207, 207);
 }
 
+/* Projects */
 .projects{
     min-height: 80vh;
     background-image: url("background.jpg");
@@ -225,11 +232,13 @@ header .navbar ul li a:hover{
     color: lightseagreen;
     padding-top: 40px;
     padding-bottom: 40px;
+    text-align: center;
 }
 
 .projects .section-title h1{
     font-size: 35px;
     text-transform: uppercase;
+    padding-top: 40px;
     margin: 0;
     display: inline-block;
     position: relative;
