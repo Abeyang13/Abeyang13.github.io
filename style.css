@@ -94,17 +94,46 @@ body{
     transform: translateY(360px);
 }
 .projects{
+    max-width: 100%;
+    height: auto;
     width: 600px;
     height: 200px;
-    background-color: whitesmoke;
     text-align: center;
     padding: 20px;
+    border: 2px solid whitesmoke;
+}
+
+.projects-container h2{
+    text-decoration: underline;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 .projects h3{
-    color: lightseagreen;
+    color: whitesmoke;
     padding: 60px;
     margin: 0;
+}
+
+#fishing{
+    background-image: url("fishing.jpg");
+    background-size: cover;
+}
+
+#properTech{
+    background-image: url("propertech.jpg");
+    background-size: cover;
+}
+
+#movie{
+    background-image: url("movies.jpg");
+    background-size: cover;
+}
+
+#dolly{
+    background-image: url("dolly.jpg");
+    background-size: cover;
+    
 }
 
 
