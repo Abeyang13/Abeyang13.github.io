@@ -121,15 +121,15 @@ header .navbar ul li a:hover{
     bottom:0px;
 }
 
-.about-me .section-title p.small{
+.about-me .section-title p{
     display: block;
-    font-size: 14px;
+    font-size: 15px;
 }
 
 .about-me .about-content .img{
     padding-left: 14px;
-    flex:0 0 43.33%;
-    max-width: 43.33%;
+    flex:0 0 33.33%;
+    max-width: 33.33%;
 }
 
 .about-me .about-content .img img{
@@ -138,8 +138,8 @@ header .navbar ul li a:hover{
 }
 
 .about-me .about-content .text{
-    flex:0 0 56.66%;
-    max-width: 56.66%;
+    flex:0 0 66.66%;
+    max-width: 66.66%;
     padding-left: 20px;
     padding-top: 10px;
     padding-right: 10px;
@@ -188,4 +188,27 @@ header .navbar ul li a:hover{
 
 .about-me .about-content .text .info p{
     padding-top: 0;
+    font-size: 15px;
+}
+
+.about-me .about-content .text .social-links{
+    padding-top: 15px;
+    font-size: 20px;
+}
+
+.about-me .about-content .text .social-links a{
+    height:40px;
+    width: 40px;
+    background-color: black;
+    border-radius: 5px;
+    display: inline-block;
+    text-align: center;
+}
+.about-me .about-content .text .social-links a .fa{
+    color: lightseagreen;
+    padding-top: 10px;
+}
+
+.about-me .about-content .text .social-links a .fa:hover{
+    color: rgb(198, 207, 207);
 }
