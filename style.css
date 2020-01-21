@@ -23,8 +23,6 @@ header{
 }
 
 header .navbar{
-    justify-content: center;
-    flex-wrap: wrap;
     position: fixed;
 }
 
