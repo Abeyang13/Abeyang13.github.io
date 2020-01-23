@@ -24,6 +24,12 @@ header{
 
 header .navbar{
     position: fixed;
+    background-color: black;
+    width: 100%;
+    z-index: 1;
+    padding-top: 0%;
+    padding-bottom: 0%;
+    border-bottom: 1px solid lightseagreen;
 }
 
 header .navbar ul{
@@ -51,6 +57,9 @@ header .navbar ul li a:hover{
     color:lightseagreen;
 }
 
+#navbar-container{
+    padding-left: 0;
+}
 /* Home */
 .home{
     min-height: 100vh;
