@@ -243,19 +243,27 @@ header .navbar ul li a:hover{
     border-bottom: 1px solid lightseagreen;
 }
 
-.projects .row .projects-cards .list{
+.projects .container{
+    padding-bottom: 40px;
+}
+
+.projects .row{
+    justify-content: center;
+}
+
+.projects .row .list{
     border: 1px solid rgb(198, 207, 207);
     border-radius: 5px;
     padding: 50px;
     margin: 20px;
+    width: 400px;
+    text-align: center;
 }
-
-.projects .row .projects-cards .list a{
+.projects .row .list a{
     color: whitesmoke;
     font-size: 30px;
     font-weight: 600;
 }
-
 #fishing{
     background-image: url("fishing.jpg");
     background-size: cover;
@@ -274,10 +282,4 @@ header .navbar ul li a:hover{
 #dolly{
     background-image: url("dolly.jpg");
     background-size: cover;
-}
-
-#project-container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
 }
